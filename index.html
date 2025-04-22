@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siswa 8.6</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #e3f2fd;
+  animation: fadeInDown 1s ease-out;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2196f3;
+  animation: colorCycle 4s infinite;
+}
+
+@keyframes colorCycle {
+  0% { color: #2196f3; }
+  25% { color: #3f51b5; }
+  50% { color: #00bcd4; }
+  75% { color: #009688; }
+  100% { color: #2196f3; }
+}
+
+.wali-kelas-btn {
+  display: inline-block;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  margin: 10px auto;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.wali-kelas-btn:hover {
+  background-color: #1976d2;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+  animation: fadeIn 1.4s ease-out;
+}
+
+.total-siswa {
+  text-align: center;
+  margin: 30px 20px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.card {
+  max-width: 500px;
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: slideUp 1s ease-out;
+  border-left: 5px solid #2196f3;
+}
+
+.card h2 {
+  color: #1e88e5;
+  font-size: 1.4rem;
+}
+
+.card p span {
+  font-weight: 600;
+  color: #555;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+  </style>
+</head><body>
+  <header>
+    <h1>Selamat datang di pengenalan siswa siswi 8.6</h1>
+    <button class="wali-kelas-btn">Desmiati, S.Pd., M.Pd</button>
+    <p class="quote">"Bersama kita hebat, bersama kita kuat, kelas 8.6 luar biasa!"</p>
+  </header>  <div class="total-siswa">Total siswa 8.6 adalah 28 siswa dan siswi</div>  <div class="card">
+    <h2>Muhammad Rizky Fahrianto</h2>
+    <p><span>Umur:</span> 15</p>
+    <p><span>Tanggal Lahir:</span> 3 Oktober 2010</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Baik</p>
+    <p><span>Hobi:</span> Ngoding</p>
+    <p><span>Makanan Favorit:</span> Ayam</p>
+    <p><span>Minuman Favorit:</span> Susu</p>
+    <p><span>Gabut:</span> Bikin bot WhatsApp</p>
+  </div>  <div class="card">
+    <h2>M. Naufal Aditya Saputra</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 18 Maret 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Aneh, Baik</p>
+    <p><span>Hobi:</span> Ngikut orang</p>
+    <p><span>Makanan Favorit:</span> Ayam</p>
+    <p><span>Minuman Favorit:</span> Es Teh</p>
+    <p><span>Gabut:</span> Mikir sana sini</p>
+  </div>  <div class="card">
+    <h2>M. Alfath Riziq</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 6 Agustus 2010</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Baik</p>
+    <p><span>Hobi:</span> Main bola</p>
+    <p><span>Makanan Favorit:</span> Nasi Padang</p>
+    <p><span>Minuman Favorit:</span> Es Teh</p>
+    <p><span>Gabut:</span> Main game</p>
+  </div>  <div class="card">
+    <h2>Muhammad Satria Alfaza</h2>
+    <p><span>Umur:</span> 13</p>
+    <p><span>Tanggal Lahir:</span> 1 November 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Tengil</p>
+    <p><span>Hobi:</span> Futsal</p>
+    <p><span>Makanan Favorit:</span> Ayam Richeese</p>
+    <p><span>Minuman Favorit:</span> Milo Dingin</p>
+    <p><span>Gabut:</span> Keluar rumah</p>
+  </div>  <div class="card">
+    <h2>Syahrul Habibi</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 22 Agustus 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Ramah</p>
+    <p><span>Hobi:</span> Main bola</p>
+    <p><span>Makanan Favorit:</span> Nasi</p>
+    <p><span>Minuman Favorit:</span> Susu Coklat</p>
+    <p><span>Gabut:</span> Main di luar</p>
+  </div>  <div class="card">
+    <h2>Aulia Rahman</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 3 Maret 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Baik, Sedikit Nakal</p>
+    <p><span>Hobi:</span> Gamers</p>
+    <p><span>Makanan Favorit:</span> Kaviar</p>
+    <p><span>Minuman Favorit:</span> Kopi Panas</p>
+    <p><span>Gabut:</span> Jalan-jalan</p>
+  </div>  <div class="card">
+    <h2>Muhammad Ragil Alhafiz</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 4 April 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Baik</p>
+    <p><span>Hobi:</span> Futsal</p>
+    <p><span>Makanan Favorit:</span> Nasi</p>
+    <p><span>Minuman Favorit:</span> Air Putih</p>
+    <p><span>Gabut:</span> Tidur</p>
+  </div>  <div class="card">
+    <h2>Aprilio Habibi</h2>
+    <p><span>Umur:</span> 14</p>
+    <p><span>Tanggal Lahir:</span> 29 April 2011</p>
+    <p><span>Asal:</span> Tembilahan</p>
+    <p><span>Sifat:</span> Baik</p>
+    <p><span>Hobi:</span> Main keluar</p>
+    <p><span>Makanan Favorit:</span> Ayam</p>
+    <p><span>Minuman Favorit:</span> Tuak</p>
+    <p><span>Gabut:</span> Nyabu</p>
+  </div>
+</body>
+</html>
